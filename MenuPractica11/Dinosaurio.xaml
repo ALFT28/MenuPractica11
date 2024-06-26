@@ -8,6 +8,13 @@
 
         <VerticalStackLayout>
 
+            <Image Source="https://cloudfront-eu-central-1.images.arcpublishing.com/prisaradiolos40/NJOOGZOVFRJBPMZI7HEK73HKJA.jpg"
+            Aspect="AspectFit"
+            HorizontalOptions="Center"
+            VerticalOptions="Start"
+            WidthRequest="150"
+            HeightRequest="300" />
+
             <Entry x:Name="EntryKg"
             Placeholder="Dijite los peso(Kg)"
             Margin="10"

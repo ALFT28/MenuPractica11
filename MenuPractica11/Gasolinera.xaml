@@ -7,6 +7,15 @@
     <ScrollView>
         <VerticalStackLayout>
 
+
+
+            <Image Source="https://png.pngtree.com/png-clipart/20210310/original/pngtree-red-gas-station-clip-art-png-image_5962286.jpg"
+            Aspect="AspectFit"
+            HorizontalOptions="Center"
+            VerticalOptions="Start"
+            WidthRequest="150"
+            HeightRequest="300" />
+            
             <Label Text="Programa Precio de combustible por litro " FontSize="34" VerticalOptions="Center" HorizontalOptions="Center" />
 
             <Label Text="Ingrese la cantidad de galones surtidos:" VerticalOptions="Center" HorizontalOptions="Center" Padding="20"/>

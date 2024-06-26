@@ -5,6 +5,14 @@
              Title="Triangulo">
     
     <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+
+        <Image Source="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLNO-AzQZENI-xDgwZXhJdQ8H4S80HqezP1KtGP3EoP-qYwn-jxj6jY-q-xGOOBElpV5LFV-fk5BzKIhnLejPRKUINagyUr2t9sIMqjTnDQteLGMWxjFWv0RKFyUkphUyDFYFuUYf4kqA/s1600/Triangulo1.jpg"
+Aspect="AspectFit"
+HorizontalOptions="Center"
+VerticalOptions="Start"
+WidthRequest="150"
+HeightRequest="300" />
+        
         <Label Text="Ingrese la base del triángulo:" />
         <Entry x:Name="BaseEntry" Placeholder="Base" Keyboard="Numeric" />
 
