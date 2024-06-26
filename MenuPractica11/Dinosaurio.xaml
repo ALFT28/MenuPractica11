@@ -3,10 +3,50 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MenuPractica11.Dinosaurio"
              Title="Dinosaurio">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <ScrollView>
+
+        <VerticalStackLayout>
+
+            <Entry x:Name="EntryKg"
+            Placeholder="Dijite los peso(Kg)"
+            Margin="10"
+            FontSize="15"
+            />
+
+            <Entry x:Name="EntryMts"
+            Placeholder="Dijite su altura(mts)"
+            Margin="10"
+            FontSize="15"
+            />
+
+            <Entry x:Name="EntryLb"
+           Placeholder="libras"
+           Margin="10"
+           FontSize="15"
+           IsEnabled="False"
+      />
+
+            <Entry x:Name="EntryCm"
+            Placeholder="Centimetros"
+            Margin="10"
+            FontSize="15"
+            IsEnabled="False"
+     />
+
+            <Button Text="Calcular"
+             Clicked="Button_Clicked_1"
+             Margin="10"
+             BackgroundColor="Green"
+             TextColor="White"/>
+
+            <Button Text="Limpiar"
+                    Clicked="Button_Clicked"
+                    Margin="10"
+                    TextColor="White"
+                    BackgroundColor="Green"/>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
