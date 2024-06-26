@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_4955511ProgramasP11.Gasolinera"
+             Title="Gasolinera">
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <Label Text="Programa Precio de combustible por litro " FontSize="34" VerticalOptions="Center" HorizontalOptions="Center" />
+
+            <Label Text="Ingrese la cantidad de galones surtidos:" VerticalOptions="Center" HorizontalOptions="Center" Padding="20"/>
+            <Entry x:Name="GSurtidos" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+            <Label Text="Ingrese el precio del por litro:" VerticalOptions="Center" HorizontalOptions="Center" Padding="20"/>
+            <Entry x:Name="PpLitro" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+
+            <Label Text="Cobro al cliente:" VerticalOptions="Center" HorizontalOptions="Center" Padding="20"/>
+            <Entry x:Name="CCliente" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+            <Button Text="Calcular precio" VerticalOptions="Center" HorizontalOptions="Center" Clicked="Button_Clicked"  Margin="10"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
